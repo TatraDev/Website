@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+}
+
+/* - HEADER - */
+
+/*-- NAV BLOCK
+--*/
+
+.nav-block {
+    background-color: #0b2239;
+}
+
+.nav-items {
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.logo {
+    width: 130px;
+    padding-bottom: 2px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #69e781;
+}
+
+.nav-item {
+    padding-right: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link,
+.nav-item:last-child:first-child {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(105, 231, 129);
+}
+
+.dropdown-menu {
+    min-width: 0;
+    color: #0b2239;
+    font-size: 13px;
+    -webkit-box-shadow: 0 6px 15px rgba(11, 34, 57, 0.1) ;
+    box-shadow: 0 6px 15px rgba(11, 34, 57, 0.1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px 4px 4px 4px;
+}
+
+.dropdown-item:hover {
+    color: #4ac963;
+    background: rgba(255, 255, 255, 1);
+}
+
+.dropdown-item:focus {
+    color: #53d16b;
+    background: rgba(255, 255, 255, 1);
+}
+
+.nav-btn {
+    border: 2px solid #69e781;
+    border-radius: 6px;
+}
+
+.nav-btn button {
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.nav-btn button:hover {
+    background-color: rgb(105, 231, 129, .2);
+    color: #fff;
+}
+
+nav.navbar .dropdown:hover > .dropdown-menu {
+ display: block;
+}
+
+/* - / HEADER - */
+
+/* - SIDE OPTION'S - */
+
+.bottom-0 {
+    min-height:500px;
+}
+
+.hover_effect a:hover {
+    text-decoration: none !important;
+    color: #b2b2b2 !important;
+}
+
+/* - TEST - */
+
+#top_notify_wrap:after, #top_notify_wrap:before {
+    position: absolute;
+    pointer-events: none;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    bottom: 100%;
+    left: 29px;
+}
+
+
+#top_notify_wrap:before {
+    border-width: 8px;
+    margin: 0 -6px;
+    border-bottom-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
