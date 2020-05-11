@@ -98,7 +98,7 @@ body {
     color: #fff;
 }
 
-nav.navbar .dropdown:hover > .dropdown-menu {
+.nav-block nav.navbar .dropdown:hover > .dropdown-menu {
     display: block;
 }
 
@@ -120,9 +120,68 @@ nav.navbar .dropdown:hover > .dropdown-menu {
     border-bottom-color: #fff;
 }
 
-/* - / HEADER - */
+/* - INDEX - */
 
-/* - / FOOTER - */
+.intro-text {
+    margin-top: 85px;
+}
+
+.intro-img img {
+    width: 75%;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.up button {
+    border-radius: 50%;
+}
+
+.index .intro-title {
+    color: #08192b;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    line-height: 1.4;
+}
+
+.index .intro-border {
+    border-bottom: 3px solid #69e781;
+    border-radius: 3px;
+}
+
+.index .intro-subtitle {
+    color: #c3c8ce;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.intro button {
+    margin-top: 25px;
+    background: rgb(105, 231, 129);
+    color: #fff;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.intro .btn-green:hover {
+    color: #fff;
+    background: #48e064;
+}
+
+.intro .btn-light {
+    margin-left: 25px;
+    color: rgb(105, 231, 129);
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: 4px 4px 4px rgba(105, 231, 129, 0.2);
+}
+
+
+
+/* - FOOTER - */
 
 .footer {
     background: #08192b;
@@ -236,7 +295,7 @@ nav.navbar .dropdown:hover > .dropdown-menu {
 }
 
 .footer .btn-group .dropdown-menu {
-    margin-top: 10px;
+    margin-left: 10px;
     letter-spacing: 1px;
     font-size: 14px;
     min-width: 0;
@@ -250,12 +309,18 @@ nav.navbar .dropdown:hover > .dropdown-menu {
     height: 0;
     width: 0;
     bottom: 100%;
-    right: 39px;
+    top: 14px;
+
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
 }
 
 #footer_notify_wrap:before {
     border-width: 6px;
-    margin: 0 -6px;
+    margin: 0 -12px;
     border-bottom-color: #fff;
 }
 
