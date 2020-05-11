@@ -21,7 +21,7 @@ Alerts are available for any length of text, as well as an optional dismiss butt
 {% endcapture %}
 {% include example.html content=example %}
 
-{% include callout-warning-color-assistive-technologies.md %}
+
 
 ### Link color
 
