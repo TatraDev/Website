@@ -4,6 +4,7 @@
     user-select: none;
     box-sizing: border-box;
     font-family:'Open Sans', sans-serif;
+    letter-spacing: 1px;
 }
 
 body {
@@ -23,18 +24,18 @@ body {
 
 .nav-items {
     padding: 10px 0;
-    letter-spacing: 1px;
     font-size: 14px;
 }
 
 .nav-block .logo {
     width: 130px;
-    padding-bottom: 2px;
+    padding: 14px 0;
 }
 
 .navbar-nav .nav-item .nav-link {
     color: #fff;
     padding: 15px;
+    letter-spacing: 2px;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -44,7 +45,6 @@ body {
 .nav-item {
     padding-right: 25px;
     font-weight: bold;
-    letter-spacing: 2px;
     color: #fff;
 }
 
@@ -89,7 +89,6 @@ body {
 
 .nav-btn button {
     color: #fff;
-    letter-spacing: 1px;
     font-weight: bold;
 }
 
@@ -136,21 +135,20 @@ body {
     border-radius: 50%;
 }
 
-.index .intro-title {
+.intro .intro-title {
     color: #08192b;
     font-size: 30px;
     font-weight: bold;
-    letter-spacing: 1px;
     margin-bottom: 35px;
     line-height: 1.4;
 }
 
-.index .intro-border {
+.intro .intro-border {
     border-bottom: 3px solid #69e781;
     border-radius: 3px;
 }
 
-.index .intro-subtitle {
+.intro .intro-subtitle {
     color: #c3c8ce;
     font-size: 20px;
     font-weight: 500;
@@ -161,7 +159,6 @@ body {
     background: rgb(105, 231, 129);
     color: #fff;
     padding: 10px 15px;
-    letter-spacing: 1px;
     font-weight: 500;
     font-size: 18px;
 }
@@ -179,7 +176,47 @@ body {
     box-shadow: 4px 4px 4px rgba(105, 231, 129, 0.2);
 }
 
+/* - FEATURES - */
 
+.features {
+    background: #08192b;
+    margin-bottom: 50px;
+}
+
+.features .features-title {
+    font-size: 30px;
+    padding: 15px 0;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.features-title-item {
+    margin-top: 25px;
+}
+
+.features-cirle {
+    display: block;
+    margin: 0 auto;
+
+    height: 4.5rem;
+    width: 4.5rem;
+
+    background: #fff;
+    border-radius: 100%;
+}
+
+.features-cirle.yellow {
+    background: #fcd250;
+}
+
+.features-cirle.green {
+    background: #8df690;
+}
+
+.features-cirle.blue {
+    background: #5eb2fc;
+}
 
 /* - FOOTER - */
 
@@ -198,7 +235,6 @@ body {
 .footer-title {
     font-weight: 700;
     font-size: 14px;
-    letter-spacing: 1px;
     margin: 0;
     padding-bottom: 8px;
 }
@@ -209,7 +245,6 @@ body {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 1px;
     text-decoration: none;
 }
 
@@ -291,12 +326,10 @@ body {
     border: 2px solid #fff;
     border-radius: 4px;
     color: #fff;
-    letter-spacing: 1px;
 }
 
 .footer .btn-group .dropdown-menu {
     margin-left: 10px;
-    letter-spacing: 1px;
     font-size: 14px;
     min-width: 0;
 }
@@ -336,7 +369,6 @@ body {
     text-align: center;
     padding: 0;
     margin: 0;
-    letter-spacing: 1px;
     color: #869fb2;
 }
 
